@@ -1,0 +1,11 @@
+__pycache__/
+.env/
+*.txt/
+data/
+logs/
+*.sh
+*.png
+*.py
+!evaluate.py
+init_models/
+log.txt
