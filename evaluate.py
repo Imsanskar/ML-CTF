@@ -20,6 +20,7 @@ def parse_args():
     
 
     parser.add_argument('--model_path', type=str, default='./models/model.pth', help='Path to save or load models')
+    parser.add_argument('--train', type='store_action', help='Whether to train the model or evaluate')
     parser.add_argument(
         '--arch', type=str, default='./models', choices=[
             'lenet5', 'mini_vgg',
